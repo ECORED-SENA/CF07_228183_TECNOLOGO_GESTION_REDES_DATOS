@@ -2,18 +2,209 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    width: 20%
+    top: 10%
+    right: 75%
   &-2
+    animation: float2 2.8s ease-in-out infinite alternate
+    position: absolute
+    width: 20%
+    top: 20%
+    right: 15%
+  &-3
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
+    width: 20%
+    top: 60%
+    right: 45%
+  &-4
+    animation: float2 2.8s ease-in-out infinite alternate
+    position: absolute
+    width: 20%
     top: 51%
-    right: 30%
-
+    right: 75%
+  &-5
+    animation: float2 2.8s ease-in-out infinite alternate
+    position: absolute
+    width: 15%
+    top: 60%
+    right: 10%
 
 @keyframes float1
   0%
     transform: translateY(20px)
-
   100%
     transform: translateY(0px)
+
+@keyframes float2
+  0%
+    transform: translateX(20px)
+  100%
+    transform: translateX(0px)
+
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/img1.svg") !important
+
+.titulo-principal.color-acento-contenido .titulo-principal__numero span
+  color: white
+
+.bloque-texto-c.color-primario
+  background-color: #E9E2FE
+
+.bloque-texto-c.color-secundario
+  background-color: #BEEFFD
+
+.tarjeta--azul
+  background-color: white
+  background-image: url("../assets/curso/tema1/img3.svg")
+  background-repeat: no-repeat
+  background-size: cover
+
+.tarjeta--gris
+  background-color: #DDE6FE
+
+.tarjeta--gris2
+  background-color: #F3F9FF
+
+.acordion__accion__btn--a, .acordion__accion__btn--b
+  background-color: red
+  border: 0px
+  i
+    color: white
+
+.tarjeta.color-acento-botones
+  background-color: #E9E2FE
+
+.tabs-a.color-acento-botones .tabs-a__tab__selected
+  background-color: #E9E2FE
+.tabs-a.color-acento-botones .tabs-a__tab__selected:before
+  background-color: #E9E2FE
+.tabs-a.color-acento-botones .tabs-a__tab:hover, .tabs-a.color-acento-botones .tabs-a__tab:active, .tabs-a.color-acento-botones .tabs-a__tab:focus
+  background-color: #E9E2FE
+
+.tabs-c
+  border: 0px
+
+.tabs-c.color-acento-botones .tabs-c__tab--active
+  span
+    color: #1E5AF9
+    font-weight: bold
+
+.bloque-texto-g.color-secundario
+  background-color: #B0C5FD
+
+.tarjeta.color-secundario
+  background-color: #E1D8FD
+  p
+    color: $color-sistema-texto
+
+.tarjeta.color-secundario2
+  background-color: #FDB6C7
+
+.cajon.color-primario
+  background-color: #F0F4FF
+.cajon.color-primario:before
+  background-color: #6E40FC
+
+.anexo
+  background-color: #FEE0E7
+  *
+    color: $color-sistema-texto
+
+.tarjeta.tarjeta--azul1
+  background-color: #E9E4FA
+.tarjeta.tarjeta--azul1.acordion__activo
+  background-color: #E6DEFF
+
+.banner-interno__titulo__icono i
+  color: #1E5AF9 !important
+
+.bg
+  &-c1
+    background-color: #DDE6FE
+  &-c2
+    background-image: url(../assets/curso/tema1/img4.svg)
+    background-repeat: no-repeat
+    margin-inline: -3.2rem !important
+    background-size: contain
+    background-position: bottom
+    @media screen and ( max-width: $bp-max-lg )
+      background-size: cover
+  &-c3
+    background-color: #422697
+    border-top-left-radius: 20px
+    border-bottom-left-radius: 20px
+    @media screen and ( max-width: $bp-max-lg )
+      border-bottom-left-radius: 0px
+      border-top-right-radius: 20px
+  &-c4
+    background-color: #1E5AF9
+    border-top-right-radius: 20px
+    border-bottom-right-radius: 20px
+    @media screen and ( max-width: $bp-max-lg )
+      border-top-right-radius: 0px
+      border-bottom-left-radius: 20px
+  &-c5
+    background-image: url(../assets/curso/tema1/img9.svg)
+    background-repeat: no-repeat
+    margin-inline: -3.2rem !important
+    background-size: cover
+  &-c6
+    background-color: #D9F6FE
+    margin-inline: -3.2rem !important
+  &-c7
+    background-image: url(../assets/curso/tema1/img15.svg)
+    background-repeat: no-repeat
+    margin-inline: -3.2rem !important
+    background-size: cover
+  &-c8
+    background-color: #D9F6FE
+    margin-inline: -3.2rem !important
+    margin-bottom: -48px
+  &-c9
+    background-image: url(../assets/curso/tema2/img5.svg)
+    background-repeat: no-repeat
+    background-position: 0px 150px
+    margin-inline: -3.2rem !important
+    margin-bottom: -48px
+  &-c10
+    background-color: #F6F6F6
+  &-c11
+    background-color: #E9E2FF
+  &-c12
+    background-image: url(../assets/curso/tema3/img4.svg)
+    background-repeat: no-repeat
+    background-position: 0px 150px
+    @media screen and ( max-width: $bp-max-lg )
+      background-image: none
+      background-color: #E9E2FF
+  &-c13
+    background-color: #D9F6FF
+  &-c14
+    background-color: #F3EFFF
+    margin-inline: -3.2rem !important
+  &-c15
+    background-image: url(../assets/curso/tema3/img9.svg)
+    background-repeat: no-repeat
+    background-position: center
+    @media screen and ( max-width: $bp-max-lg )
+      background-image: none
+      background-color: #E9E2FF
+  &-c16
+    background-image: url(../assets/curso/tema3/img12.svg)
+    background-repeat: no-repeat
+    margin-inline: -3.2rem !important
+    background-size: cover
+
+.txt
+  &-c1
+    color: #6E40FB
+  &-c2
+    background-color: #E9E2FE
+    padding: 6px
+  &-c3
+    background-color: #6E40FC
+    border-radius: 10px
+    padding: 10px
+  &-c4
+    color: #1E5AF9 !important
