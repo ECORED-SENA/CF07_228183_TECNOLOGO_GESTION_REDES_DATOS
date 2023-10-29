@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Verificación / transmisión de datos',
     descripcionCurso:
-      'Este componente formativo, aborda generalidades y aspectos clave sobre el proceso de verificación / transmisión de datos, la comprobación del flujo de información sobre la infraestructura inalámbrica y otras acciones conexas. Co su estudio responsable, el aprendiz estará se afianzará en: medios inalámbricos, estándares de transmisión, seguridad en la red, métodos y métodos de funcionamiento, entre otros.',
+      'Este componente formativo, aborda generalidades y aspectos clave del proceso de verificación / transmisión de datos, la comprobación del flujo de información sobre la infraestructura inalámbrica y otras acciones conexas. Con su estudio responsable, el aprendiz se afianzará en la gestión de medios inalámbricos, estándares de transmisión, seguridad en la red, medios y métodos de funcionamiento, entre otros. ',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
@@ -117,20 +117,14 @@ export default {
       tema: '1.3. Seguridad en la red',
       referencia:
         'Castro, R. (2005). Avanzando en la seguridad de las redes WIFI. <em>ENFOQUES</em>, 73, p. 23-33.',
-      tipo: 'Aftículo',
+      tipo: 'Artículo',
       link:
         'https://www.rediris.es/difusion/publicaciones/boletin/73/ENFOQUE1.pdf',
-    },
-    {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
     },
   ],
   glosario: [
     {
-      termino: 'Ad-hoc',
+      termino: '<em>Ad-hoc</em>',
       significado:
         'configuración del equipo cliente que ofrece conectividad independiente entre dispositivos dentro de una red LAN inalámbrica (Nafria, 2018).',
     },
