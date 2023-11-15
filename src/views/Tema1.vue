@@ -9,10 +9,14 @@
     .row.align-items-center.mb-4.mb-lg-5(data-aos='fade-right')
       .col-lg-8.mb-4.mb-lg-0
         p Dicho en términos de expertos y pioneros en la materia, los medios inalámbricos se pueden definir como:
-        .bloque-texto-c.color-primario.p-4
-          i.fas.fa-quote-right
-          p.mb-2 #[b Aquellos espacios libres, por donde se propaga un tipo particular de ondas electromagnéticas: ondas de radiofrecuencia que son portadoras de señales de datos.]
-          span - Durán et al. (2008).
+
+        .bloque-texto-b.bg-c11.p-4
+          .bloque-texto-b__texto
+            i.fas.fa-quote-left
+            p.mb-2 #[b Aquellos espacios libres, por donde se propaga un tipo particular de ondas electromagnéticas: ondas de radiofrecuencia que son portadoras de señales de datos.]
+            span - Durán et al. (2008).
+            i.fas.fa-quote-right
+
       .col-lg-4.d-none.d-lg-block
         figure
           img(src='@/assets/curso/tema1/img1.svg', style="max-width: 450px" ,alt='').m-auto
@@ -116,11 +120,11 @@
                 .row(titulo="IEEE 802.11b")
                   .col-12
                     h4.mt-4 IEEE 802.11b
-                    p Definido en 1999. Permite velocidades de 5,5 y 11 Mbps en el espectro de los 2,4GHz. Compatible con el estándar original de 1 y 2 Mbps (sólo con los sistemas DSSS, no con los FHSS o sistemas infrarrojos), incluye una nueva técnica de modulación llamada Complementary Code Keying (CCK), que permite el incremento de velocidad. El estándar 802.11b define una única técnica de modulación para las velocidades superiores - CCK - al contrario que el estándar original 802.11, que permitía tres técnicas diferentes (DSSS, FHSS e infrarrojos).
+                    p Definido en 1999. Permite velocidades de 5,5 y 11 Mbps en el espectro de los 2,4GHz. Compatible con el estándar original de 1 y 2 Mbps (sólo con los sistemas DSSS, no con los FHSS o sistemas infrarrojos), incluye una nueva técnica de modulación llamada #[em Complementary Code Keying] (CCK), que permite el incremento de velocidad. El estándar 802.11b define una única técnica de modulación para las velocidades superiores - CCK - al contrario que el estándar original 802.11, que permitía tres técnicas diferentes (DSSS, FHSS e infrarrojos).
                 .row(titulo="IEEE 802.11b+")
                   .col-12
                     h4.mt-4 IEEE 802.11b+
-                    p Variación del IEEE 802.11b, opera a 22Mbps contra los 11Mbps de la versión 11b; sin embargo, no es un estándar. Aunque aparece en la mayoría de las documentaciones como IEEE 802.11b+, IEEE nunca lo ha certificado como estándar. Fue diseñado por Texas Instruments y adoptado por algunos fabricantes de dispositivos inalámbricos, como D-Link y Global Sun, que utilizan estos chipsets.
+                    p Variación del IEEE 802.11b, opera a 22Mbps contra los 11Mbps de la versión 11b; sin embargo, no es un estándar. Aunque aparece en la mayoría de las documentaciones como IEEE 802.11b+, IEEE nunca lo ha certificado como estándar. Fue diseñado por Texas Instruments y adoptado por algunos fabricantes de dispositivos inalámbricos, como D-Link y Global Sun, que utilizan estos #[em chipsets].
                 .row(titulo="IEEE 802.11g")
                   .col-12
                     h4.mt-4 IEEE 802.11g
@@ -292,7 +296,7 @@
     .h3.text-white.mb-5 #[span.txt-c3 Evitar difundir la SSID]
     .row.align-items-center.mb-5(data-aos='fade-right')
       .col-lg-8.mb-4.mb-lg-0
-        p De acuerdo con Salvetti (2011), el término SSID (#[em Service Set Identifier]) se refiere al nombre asignado a la red inalámbrica y sirve para diferenciarla de otras, pues hoy en día son demasiadas las que se encuentran en una rango determinado. El objetivo principal de este identificador es informar a los potenciales nodos que pueden unirse a una red específica con el objetivo de adquirir los derechos de transmisión de dicha red.
+        p De acuerdo con Salvetti (2011), el término SSID (#[em Service Set Identifier]) se refiere al nombre asignado a la red inalámbrica y sirve para diferenciarla de otras, pues hoy en día son demasiadas las que se encuentran en un rango determinado. El objetivo principal de este identificador es informar a los potenciales nodos que pueden unirse a una red específica con el objetivo de adquirir los derechos de transmisión de dicha red.
         .row.align-items-center
           .col-auto
             figure
@@ -349,7 +353,7 @@
                     .col-auto.bg-white.rounded
                       .p-3
                         p.fs-3.mb-0 #[b.txt-c4 2]
-                  p.text-center.text-white El diseño fallido de WEP permite la alteración del código CRC del tráfico, sin la necesidad de saber la llave WEP, es decir que el tráfico puede alterarse sin que se note.
+                  p.text-center.text-white El diseño fallido de WEP permite la alteración del código CRC del tráfico, sin la necesidad de saber la llave WEP, es decir, que el tráfico puede alterarse sin que se note.
                 .tarjeta.color-primario.p-4
                   .row.justify-content-center.mb-3
                     .col-auto.bg-white.rounded

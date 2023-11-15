@@ -158,7 +158,6 @@ export default {
     {
       referencia:
         'Díaz, M. (2012). <em>Conexiones inalámbricas ¿Una puerta abierta para los hackers?</em> ITCA Editores. ',
-      link: 'http://hdl.handle.net/10972/487',
     },
     {
       referencia:
@@ -221,24 +220,19 @@ export default {
             'Centro de Servicios y Gestión Empresarial - Regional Antioquia',
         },
         {
-          nombre: 'Luz Mila Pacheco Fuentes',
-          cargo: 'Diseñadora instruccional',
-          centro: 'Centro de Diseño y Metrología  - Regional Distrito Capital',
-        },
-        {
           nombre: 'Silvia Milena Sequeda Cárdenas',
-          cargo: 'Evaluadora instruccional',
+          cargo: 'Evaluadora Instruccional',
           centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
         },
         {
           nombre: 'Fabián Leonardo Correa Díaz',
-          cargo: 'Diseñador instruccional',
+          cargo: 'Diseñador Instruccional',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Darío González',
-          cargo: 'Corrección de estilo',
+          cargo: 'Corrección de Estilo',
           centro: 'Centro Agropecuario La Granja - Regional Tolima',
         },
       ],
@@ -259,8 +253,14 @@ export default {
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
+          nombre: 'Carmen Alicia Martinez Torres',
+          cargo: 'Animador y Producción Audiovisual',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Daniela Muñoz Bedoya',
+          cargo: 'Locución',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
@@ -289,7 +289,7 @@ export default {
         },
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
