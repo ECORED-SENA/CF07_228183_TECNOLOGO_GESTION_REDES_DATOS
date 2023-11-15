@@ -220,20 +220,10 @@ export default {
             'Centro de Servicios y Gestión Empresarial - Regional Antioquia',
         },
         {
-          nombre: 'Silvia Milena Sequeda Cárdenas',
-          cargo: 'Evaluadora Instruccional',
-          centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
-        },
-        {
           nombre: 'Fabián Leonardo Correa Díaz',
           cargo: 'Diseñador Instruccional',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
-          nombre: 'Darío González',
-          cargo: 'Corrección de Estilo',
-          centro: 'Centro Agropecuario La Granja - Regional Tolima',
         },
       ],
     },
